@@ -1,12 +1,26 @@
 ## Welcome to Data Developer and Engineer Organization 👋
 
-<!--
+## Getting Started
 
-**Here are some ideas to get you started:**
+For document of this organization, you can follow this like [Document](http://ddeutils.github.io/ddedocs).
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Project Components
+
+### Utility
+
+- [Core](https://github.com/ddeutils/ddeutil)
+- [IO](https://github.com/ddeutils/ddeutil-io)
+
+### Main
+
+- [Workflow](https://github.com/ddeutils/ddeutil-workflow)
+- [Observe](https://github.com/ddeutils/ddeutil-observe)
+
+### Plugin
+
+- [Vendors](https://github.com/ddeutils/ddeutil-vendors)
+
+## Usecase
+
+- [Flask]
+- [FastAPI]
