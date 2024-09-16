@@ -1,6 +1,14 @@
 # Welcome to Data Developer and Engineer 👋
 
-For document of this organization, you can follow this like [Document](http://ddeutils.github.io/ddedocs).
+For knowledge document of this organization, you can follow this like [Document](http://ddeutils.github.io/ddedocs).
+
+```mermaid
+flowchart LR
+
+   1([ddeutil]) --> 2([ddeutil-io]) --> 3([ddeutil-workflow]) --> 4([ddeutil-observe])
+   0([fmtutil]) -.-> 2
+   2 --> 5([ddeutil-vendors])
+```
 
 ## Components
 
@@ -12,12 +20,13 @@ for the first dependency packages because it has a lot of base code to make main
 not want to develop this code on the main package, for example, it do not good if I want fix bug
 on the merge key function that no relate with the workflow package
 
-The main package of my orchestration framework has 2 layer and I split it to 2 projects for
-optional installation when you want to only use just one of these layers.
+The main package of this organize orchestration framework has 2 layers and I split it with 2 projects
+for optional installation requirement (you can only use just one of these layers without raise error).
 
-- [**Workflow**](https://github.com/ddeutils/ddeutil-workflow) - executor pipeline on a worker node.
-- [**Observe**](https://github.com/ddeutils/ddeutil-observe) - web application for observe logging on a server node.
+- [**Workflow**](https://github.com/ddeutils/ddeutil-workflow) - Lightweight workflow orchestration in Python with less dependencies.
+- [**Observe**](https://github.com/ddeutils/ddeutil-observe) - Lightweight observation application with FastAPI for the workflow package.
 
 > [!NOTE]
 > I have some 3rd-party projects, [Vendors](https://github.com/ddeutils/ddeutil-vendors), for keeping
 > an additional practices to use any 3rd API connect data source, like `polars`, `duckdb`, etc.
+> It be dynamic data processing & transformation objects from external vendor packages.
