@@ -4,7 +4,7 @@ For knowledge document of this organization, you can follow this like [Document]
 
 ```mermaid
 flowchart LR
-   1([ddeutil]) --> 2([ddeutil-io]) --> 3([ddeutil-workflow]) --> 4([ddeutil-observe])
+   1([ddeutil]) --> 2([ddeutil-io]) --> 3([🏃 ddeutil-workflow]) --> 4([📡 ddeutil-observe])
    1 --> 4
    2 --> 5([ddeutil-vendors])
    0([fmtutil]) -.-> 2
