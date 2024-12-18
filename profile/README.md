@@ -1,6 +1,6 @@
 # Welcome to Data Developer and Engineer 👋
 
-For knowledge document of this organization, you can follow this like [Document](http://ddeutils.github.io/ddedocs).
+For knowledge document of this organization, you can follow this [Data Developer & Engineer document](http://ddeutils.github.io/ddedocs).
 
 ```mermaid
 flowchart LR
@@ -33,7 +33,7 @@ for optional installation requirement (you can only use just one of these layers
 > an additional practices to use any 3rd API connect data source, like `polars`, `duckdb`, etc.
 > It be dynamic data processing & transformation objects from external vendor packages.
 
-## :cocktail: External
+## :cocktail: External Projects
 
 This organize has some mini-projects that develop for specific usecase:
 
@@ -41,4 +41,4 @@ This organize has some mini-projects that develop for specific usecase:
 - [ddeapp-fastapi](https://github.com/ddeutils/ddeapp-fastapi) - Routing Application Service deploy to On-Premise server with FastAPI
 
 > [!WARNING]
-> The above projects have a lot of bugs and need time to fix and refactored the code.
+> The above projects have a lot of bugs and need times to fix and refactor the code. So, you should not use these projects.
