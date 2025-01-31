@@ -1,6 +1,6 @@
-# Welcome to Data Developer and Engineer 👋
+# Data Developer and Engineer :stars:
 
-For knowledge document of this organization, you can follow this [Data Developer & Engineer document](http://ddeutils.github.io/ddedocs).
+For knowledge document of this organization, you can follow this [:book: Data Developer & Engineer document](http://ddeutils.github.io/ddedocs).
 
 ```mermaid
 flowchart LR
@@ -9,7 +9,7 @@ flowchart LR
    2 --> 5([🔌 ddeutil-vendors])
    3 --> 6([🔭 ddeutil-observe-streamlit])
    1 --> 6
-   0([fmtutil]) -.-> 2
+   0([✂️ fmtutil]) -.-> 2
    0 -.-> 5
 ```
 
