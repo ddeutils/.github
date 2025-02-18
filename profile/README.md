@@ -8,7 +8,7 @@ For knowledge document of this organization, you can follow this [:book: Data De
 flowchart LR
    1([📌 ddeutil]) --> 2([🚅 ddeutil-io]) --> 3([🏃 ddeutil-workflow]) ---> 4([📡 ddeutil-observe])
    1 ---> 4
-   3 --> 5([🏗️ ddeutil-vendors])
+   3 --> 5([🏗️ ddeutil-extensions])
    3 ---> 6([🔭 ddeutil-observe-streamlit])
    1 --> 6
    0([✂️ fmtutil]) -..-> 2
@@ -32,10 +32,10 @@ for optional installation requirement (you can only use just one of these layers
 - [:telescope: **Observe** (Streamlit)](https://github.com/ddeutils/ddeutil-observe-steamlit) - Lightweight observation application with Streamlit for the workflow package.
 
 > [!NOTE]
-> I have some 3rd-party projects, [:building_construction: **Vendors**](https://github.com/ddeutils/ddeutil-vendors), for keeping
+> I have some 3rd-party projects, [:building_construction: **Extensions**](https://github.com/ddeutils/ddeutil-extensions), for keeping
 > an additional practices to use any 3rd API connect data source, like `polars`, `duckdb`, etc.
-> It be dynamic data processing & transformation objects from external vendor packages. It can plug-in to
-> [**Workflow**](https://github.com/ddeutils/ddeutil-workflow) with a hook stage.
+> It is dynamic data processing & transformation functions and objects from external vendor packages.
+> It can plug-in to the [**Workflow**](https://github.com/ddeutils/ddeutil-workflow) package on the hook stage.
 
 ## :cocktail: External Projects
 
