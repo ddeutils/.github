@@ -6,7 +6,7 @@ For knowledge document of this organization, you can follow this [:book: Data De
 
 ```mermaid
 flowchart LR
-   1([📌 ddeutil]) --> 2([✈️ ddeutil-io]) --> 3([🏃 ddeutil-workflow]) ---> 4([📡 ddeutil-observe])
+   1([📌 ddeutil]) --> 2([🚅 ddeutil-io]) --> 3([🏃 ddeutil-workflow]) ---> 4([📡 ddeutil-observe])
    1 ---> 4
    3 --> 5([🏗️ ddeutil-vendors])
    3 ---> 6([🔭 ddeutil-observe-streamlit])
@@ -19,7 +19,7 @@ This organization has the propose to make lightweight data orchestration framewo
 middle project scale (1-1000 workflows).
 
 Firstly, I will implement base projects, [:pushpin: **Core** (utility functions)](https://github.com/ddeutils/ddeutil)
-and [:airplane: **IO** (Input/Output transport utility objects)](https://github.com/ddeutils/ddeutil-io)
+and [🚅 **IO** (Input/Output transport utility objects)](https://github.com/ddeutils/ddeutil-io)
 for the first dependency packages because it has a lot of base code to make main package and I do
 not want to develop this code on the main package, for example, it do not good if I want fix bug
 on the merge key function that no relate with the workflow package
@@ -34,9 +34,8 @@ for optional installation requirement (you can only use just one of these layers
 > [!NOTE]
 > I have some 3rd-party projects, [:building_construction: **Vendors**](https://github.com/ddeutils/ddeutil-vendors), for keeping
 > an additional practices to use any 3rd API connect data source, like `polars`, `duckdb`, etc.
-> It be dynamic data processing & transformation objects from external vendor packages.
->
-> It can plug-in to [:runner: **Workflow**](https://github.com/ddeutils/ddeutil-workflow) with a hook stage.
+> It be dynamic data processing & transformation objects from external vendor packages. It can plug-in to
+> [**Workflow**](https://github.com/ddeutils/ddeutil-workflow) with a hook stage.
 
 ## :cocktail: External Projects
 
