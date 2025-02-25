@@ -6,13 +6,17 @@ For knowledge document of this organization, you can follow this [:book: Data De
 
 ```mermaid
 flowchart LR
-   1([📌 ddeutil]) --> 2([🚅 ddeutil-io]) --> 3([🏃 ddeutil-workflow]) ---> 4([📡 ddeutil-observe])
-   1 ---> 4
+   1([📌 ddeutil]) --> 2([🚅 ddeutil-io]) --> 3([🏃 ddeutil-workflow]) ---> 4
+
+   subgraph observe
+      4([📡 ddeutil-observe])
+      6([🔭 ddeutil-observe<br>streamlit])
+   end
+
    3 --> 5([🏗️ ddeutil-extensions])
-   3 ---> 6([🔭 ddeutil-observe-streamlit])
-   1 --> 6
-   0([✂️ fmtutil]) -..-> 2
-   0 -..-> 5
+   3 --> 6
+   0([✂️ fmtutil]) -.-> 2
+   0 -.-> 5
 ```
 
 This organization has the propose to make lightweight data orchestration framework for small to
