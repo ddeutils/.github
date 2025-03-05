@@ -2,6 +2,9 @@
 
 For knowledge document of this organization, you can follow this [:book: Data Developer & Engineer document](http://ddeutils.github.io/ddedocs).
 
+> [!NOTE]
+> I delegate the tools docs to [Data Dev & Eng Lab](http://github.com/dde-labs/)
+
 ## :pushpin: Components
 
 ```mermaid
