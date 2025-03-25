@@ -22,8 +22,8 @@ flowchart LR
    0 -.-> 5
 ```
 
-This organization has the propose to make lightweight data orchestration framework for small to
-middle project scale (1-1000 workflows).
+This organization has the propose to make lightweight data orchestration framework for small -
+middle data platform project (🏃Around 10K workflows).
 
 Firstly, I will implement base projects, [:pushpin: **Core** (utility functions)](https://github.com/ddeutils/ddeutil)
 and [🚅 **IO** (Input/Output transport utility objects)](https://github.com/ddeutils/ddeutil-io)
