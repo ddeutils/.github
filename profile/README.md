@@ -46,6 +46,8 @@ for optional installation requirement (you can only use just one of these layers
 
 ## :cocktail: External Projects
 
+## :x: Deprecated Projects
+
 This organize has some mini-projects that develop for specific usecase:
 
 - [ddeapp-flask](https://github.com/ddeutils/ddeapp-flask) - Full-Stack Data Orchestration from Yaml template with Flask & HTMX
