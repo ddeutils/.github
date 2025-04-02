@@ -44,7 +44,9 @@ for optional installation requirement (you can only use just one of these layers
 > It is dynamic data processing & transformation functions and objects from external vendor packages.
 > It can plug-in to the [**Workflow**](https://github.com/ddeutils/ddeutil-workflow) package on the hook stage.
 
-## :cocktail: External Projects
+## :cocktail: On-Going Projects
+
+- [⚡ **FastFlow**](https://github.com/ddeutils/fastflow) - Lightweight Declarative Data Workflow Framework.
 
 ## :x: Deprecated Projects
 
