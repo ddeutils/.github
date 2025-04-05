@@ -46,14 +46,14 @@ for optional installation requirement (you can only use just one of these layers
 
 ## :cocktail: On-Going Projects
 
-- [⚡ **FastFlow**](https://github.com/ddeutils/fastflow) - Lightweight Declarative Data Workflow Framework.
+- [⚡ **DeFlow**](https://github.com/ddeutils/deflow) - Lightweight Declarative Data Workflow Framework.
 
 ## :x: Deprecated Projects
 
 This organize has some mini-projects that develop for specific usecase:
 
-- [ddeapp-flask](https://github.com/ddeutils/ddeapp-flask) - Full-Stack Data Orchestration from Yaml template with Flask & HTMX
-- [ddeapp-fastapi](https://github.com/ddeutils/ddeapp-fastapi) - Routing Application Service deploy to On-Premise server with FastAPI
+- [data-orchestra](https://github.com/ddeutils/data-orchestra) - Full-Stack Data Orchestration from Yaml template with Flask & HTMX
+- [load-routing](https://github.com/ddeutils/load-routing) - Routing Application Service deploy to On-Premise server with FastAPI
 
 > [!WARNING]
 > The above projects have a lot of bugs and need times to fix and refactor the code. So, you should not use these projects.
