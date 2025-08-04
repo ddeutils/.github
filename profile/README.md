@@ -47,6 +47,7 @@ for optional installation requirement (you can only use just one of these layers
 ## :cocktail: On-Going Projects
 
 - [⚡ **DeFlow**](https://github.com/ddeutils/deflow) - Lightweight Declarative Data Workflow Framework.
+- [⚙️ **Jute**](https://github.com/ddeutils/jute) - Just a Utility for Template Engines
 
 ## :x: Deprecated Projects
 
