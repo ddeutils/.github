@@ -49,11 +49,12 @@ for optional installation requirement (you can only use just one of these layers
 ```mermaid
 flowchart LR
    1([🏃 ddeutil-workflow]) ---> 2([⚡ deflow])
-   3([🚅 ddeutil-io]) ---> 4([⚙️ jute])
+   3([🚅 ddeutil-io]) ---> 4([⚙️ detool])
 ```
 
 - [⚡ **DeFlow**](https://github.com/ddeutils/deflow) - Lightweight Declarative Data Workflow Framework.
-- [⚙️ **Jute**](https://github.com/ddeutils/jute) - Just a Utility for Template Engines
+- [⚙️ **DeTool**](https://github.com/ddeutils/detool) - Just a Tool for Template Engines
+- [🏭 **DeDag**](https://github.com/ddeutils/dedag) - Friendly Apache Airflow DAG generator
 
 ## :x: Deprecated Projects
 
