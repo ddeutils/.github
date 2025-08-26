@@ -1,4 +1,4 @@
-# Data Developer and Engineer :stars:
+# Data Developer and Engineer 🌟
 
 For knowledge document of this organization, you can follow this [:book: Data Developer & Engineer document](http://ddeutils.github.io/ddedocs).
 
@@ -54,7 +54,7 @@ flowchart LR
 
 - [⚡ **DeFlow**](https://github.com/ddeutils/deflow) - Lightweight Declarative Data Workflow Framework.
 - [⚙️ **Jett**](https://github.com/ddeutils/jett) - Just a Template Engine Tool
-- [🏭 **DeDag**](https://github.com/ddeutils/dedag) - Friendly Apache Airflow DAG generator
+- [🏭 **DagTool**](https://github.com/ddeutils/dagtool) - Friendly Airflow DAG Build Tool
 
 ## :x: Deprecated Projects
 
