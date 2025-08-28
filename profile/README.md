@@ -16,10 +16,8 @@ flowchart LR
       6([🔭 ddeutil-observe<br>streamlit])
    end
 
-   3 --> 5([🏗️ ddeutil-extensions])
    3 --> 6
    0([✂️ fmtutil]) -.-> 2
-   0 -.-> 5
 ```
 
 This organization has the propose to make lightweight data orchestration framework for small -
@@ -37,12 +35,6 @@ for optional installation requirement (you can only use just one of these layers
 - [:runner: **Workflow**](https://github.com/ddeutils/ddeutil-workflow) - Lightweight workflow orchestration in Python with less dependencies.
 - [:satellite: **Observe** (FastAPI)](https://github.com/ddeutils/ddeutil-observe) - Lightweight observation application with FastAPI for the workflow package.
 - [:telescope: **Observe** (Streamlit)](https://github.com/ddeutils/ddeutil-observe-steamlit) - Lightweight observation application with Streamlit for the workflow package.
-
-> [!NOTE]
-> I have some 3rd-party projects, [:building_construction: **Extensions**](https://github.com/ddeutils/ddeutil-extensions), for keeping
-> an additional practices to use any 3rd API connect data source, like `polars`, `duckdb`, etc.
-> It is dynamic data processing & transformation functions and objects from external vendor packages.
-> It can plug-in to the [**Workflow**](https://github.com/ddeutils/ddeutil-workflow) package on the hook stage.
 
 ## :cocktail: On-Going Projects
 
@@ -63,6 +55,13 @@ This organize has some mini-projects that develop for specific usecase:
 
 - [data-orchestra](https://github.com/ddeutils/data-orchestra) - Full-Stack Data Orchestration from Yaml template with Flask & HTMX
 - [load-routing](https://github.com/ddeutils/load-routing) - Routing Application Service deploy to On-Premise server with FastAPI
+- [:building_construction: **Extensions**](https://github.com/ddeutils/ddeutil-extensions) - An additional practices to use any 3rd API connect data source.
+
+> [!WARNING]
+> I have some 3rd-party projects (deprecated!!!), [:building_construction: **Extensions**](https://github.com/ddeutils/ddeutil-extensions), for keeping
+> an additional practices to use any 3rd API connect data source, like `polars`, `duckdb`, etc.
+> It is dynamic data processing & transformation functions and objects from external vendor packages.
+> It can plug-in to the [**Workflow**](https://github.com/ddeutils/ddeutil-workflow) package on the hook stage.
 
 > [!WARNING]
 > The above projects have a lot of bugs and need times to fix and refactor the code. So, you should not use these projects.
