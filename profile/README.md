@@ -3,7 +3,7 @@
 For knowledge document of this organization, you can follow this [:book: Data Developer & Engineer document](http://ddeutils.github.io/ddedocs).
 
 > [!NOTE]
-> I delegate the tools docs to [Data Dev & Eng Lab](http://github.com/dde-labs/)
+> I will delegate the tools section of this docs to each project in [Data Dev & Eng Lab](http://github.com/dde-labs/)
 
 ## :pushpin: Core Components
 
@@ -50,6 +50,7 @@ for optional installation requirement (you can only use just one of these layers
 flowchart LR
    1([🏃 ddeutil-workflow]) ---> 2([⚡ deflow])
    3([🚅 ddeutil-io]) ---> 4([⚙️ jett])
+   5([airflow]) ---> 6([🏭 dagtool])
 ```
 
 - [⚡ **DeFlow**](https://github.com/ddeutils/deflow) - Lightweight Declarative Data Workflow Framework.
